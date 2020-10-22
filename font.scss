@@ -1,0 +1,584 @@
+html, body {
+    padding: 1em;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+$font-size: 2px;
+$font-color: #000;
+
+.pixelated {
+    color: transparent;
+    display: grid;
+    grid-template-columns: repeat(110, 4*$font-size);
+    grid-column-gap: 1.5 * $font-size;
+    grid-row-gap: 6 * $font-size;
+    padding-bottom: 5*$font-size;
+    user-select: none;
+}
+
+
+div {
+    display: block;
+    width: $font-size;
+    height: $font-size;
+}
+
+.a {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.b {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color;
+}
+
+.c {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.d {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color;
+}
+
+.e {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.f {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color;
+}
+
+.g {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color;
+}
+
+.h {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.i {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        1*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color;
+}
+
+.j {
+    box-shadow:
+        3*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color;
+}
+
+.k {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.l {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color;
+}
+
+.m {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        4*$font-size 0*$font-size 0 $font-color,
+        4*$font-size 1*$font-size 0 $font-color,
+        4*$font-size 2*$font-size 0 $font-color,
+        4*$font-size 3*$font-size 0 $font-color,
+        4*$font-size 4*$font-size 0 $font-color;
+}
+
+.n {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color,
+        ;
+}
+
+.o {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color;
+}
+
+.p {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color;
+}
+
+.q {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.r {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.s {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        ;
+}
+
+.t {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        1*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color;
+}
+
+.u {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.v {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color;
+}
+
+.w {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color,
+        4*$font-size 0*$font-size 0 $font-color,
+        4*$font-size 1*$font-size 0 $font-color,
+        4*$font-size 2*$font-size 0 $font-color,
+        4*$font-size 3*$font-size 0 $font-color;
+}
+
+.x {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color;
+}
+
+.y {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color;
+}
+
+.z {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.dot {
+    box-shadow:
+        0*$font-size 4*$font-size 0 $font-color;
+}
+
+.comma {
+    box-shadow:
+        0*$font-size 5*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color;
+}
+
+.exclemation {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color;
+}
+
+.question {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 5*$font-size 0 $font-color;
+}
+
+.zero {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color;
+}
+
+.one {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color;
+}
+
+.two {
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 4*$font-size 0 $font-color;
+}
+
+.three {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color;
+}
+
+.four {
+    background: $font-color;
+    box-shadow:
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color;
+}
+
+.five {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        0*$font-size 4*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color;
+}
+
+.six {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        0*$font-size 2*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color;
+}
+
+.seven {
+    background: $font-color;
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 0*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color;
+}
+
+.eight {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color,
+        0*$font-size 3*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color;
+}
+
+.nine {
+    box-shadow:
+        1*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        0*$font-size 1*$font-size 0 $font-color,
+        3*$font-size 1*$font-size 0 $font-color,
+        1*$font-size 2*$font-size 0 $font-color,
+        2*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 2*$font-size 0 $font-color,
+        3*$font-size 3*$font-size 0 $font-color,
+        1*$font-size 4*$font-size 0 $font-color,
+        2*$font-size 4*$font-size 0 $font-color;
+}
+
+.apostrove {
+    background: $font-color;
+    box-shadow: 0*$font-size 1*$font-size 0 $font-color;
+}
+
+.dapostrove {
+    background: $font-color;
+    box-shadow: 
+        0*$font-size 1*$font-size 0 $font-color,
+        2*$font-size 0*$font-size 0 $font-color,
+        2*$font-size 1*$font-size 0 $font-color,
+        ;
+}
