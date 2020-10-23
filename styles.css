@@ -1,0 +1,1535 @@
+.pixelated {
+  color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.word {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.letter-container {
+  display: block;
+  width: 12px;
+  padding-right: 3px;
+  height: 15px;
+  margin-bottom: 3px;
+}
+
+.letter-container.i {
+  width: 3px;
+}
+
+.letter-container.m {
+  width: 15px;
+}
+
+div.letter {
+  display: block;
+  width: 3px;
+  height: 3px;
+}
+
+.a-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+}
+
+.b-black {
+  background: black;
+  -webkit-box-shadow: 0px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 0px 0 black, 6px 0px 0 black, 3px 6px 0 black, 6px 6px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 9px 0 black;
+          box-shadow: 0px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 0px 0 black, 6px 0px 0 black, 3px 6px 0 black, 6px 6px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 9px 0 black;
+}
+
+.c-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+}
+
+.d-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black;
+}
+
+.e-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+}
+
+.f-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black;
+}
+
+.g-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black, 9px 9px 0 black, 9px 6px 0 black, 6px 6px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black, 9px 9px 0 black, 9px 6px 0 black, 6px 6px 0 black;
+}
+
+.h-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black, 0px 12px 0 black, 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 6px 0 black, 6px 6px 0 black, 0px 12px 0 black, 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+}
+
+.i-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black;
+}
+
+.j-black {
+  -webkit-box-shadow: 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 6px 12px 0 black, 3px 12px 0 black, 0px 9px 0 black;
+          box-shadow: 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 6px 12px 0 black, 3px 12px 0 black, 0px 9px 0 black;
+}
+
+.k-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 9px 0px 0 black, 6px 3px 0 black, 3px 6px 0 black, 6px 9px 0 black, 9px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 9px 0px 0 black, 6px 3px 0 black, 3px 6px 0 black, 6px 9px 0 black, 9px 12px 0 black;
+}
+
+.l-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black;
+}
+
+.m-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 3px 0 black, 6px 6px 0 black, 9px 3px 0 black, 12px 0px 0 black, 12px 3px 0 black, 12px 6px 0 black, 12px 9px 0 black, 12px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 3px 0 black, 6px 6px 0 black, 9px 3px 0 black, 12px 0px 0 black, 12px 3px 0 black, 12px 6px 0 black, 12px 9px 0 black, 12px 12px 0 black;
+}
+
+.n-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 3px 0 black, 6px 6px 0 black, 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 3px 0 black, 6px 6px 0 black, 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+}
+
+.o-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black;
+}
+
+.p-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 0px 0 black, 6px 0px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 0px 0 black, 6px 0px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black;
+}
+
+.q-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 6px 9px 0 black, 9px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 6px 9px 0 black, 9px 12px 0 black;
+}
+
+.r-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 0px 0 black, 6px 0px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 6px 9px 0 black, 9px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 0px 0 black, 6px 0px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 6px 9px 0 black, 9px 12px 0 black;
+}
+
+.s-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 9px 0 black, 6px 12px 0 black, 3px 12px 0 black, 0px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 9px 0 black, 6px 12px 0 black, 3px 12px 0 black, 0px 12px 0 black;
+}
+
+.t-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 3px 3px 0 black, 3px 6px 0 black, 3px 9px 0 black, 3px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 3px 3px 0 black, 3px 6px 0 black, 3px 9px 0 black, 3px 12px 0 black;
+}
+
+.u-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 0px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 9px 12px 0 black;
+}
+
+.v-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 0px 0 black, 6px 3px 0 black, 6px 6px 0 black, 6px 9px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 0px 0 black, 6px 3px 0 black, 6px 6px 0 black, 6px 9px 0 black;
+}
+
+.w-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 9px 0 black, 9px 12px 0 black, 12px 0px 0 black, 12px 3px 0 black, 12px 6px 0 black, 12px 9px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 9px 0 black, 9px 12px 0 black, 12px 0px 0 black, 12px 3px 0 black, 12px 6px 0 black, 12px 9px 0 black;
+}
+
+.x-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 3px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 6px 0px 0 black, 6px 3px 0 black, 6px 9px 0 black, 6px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 3px 6px 0 black, 0px 9px 0 black, 0px 12px 0 black, 6px 0px 0 black, 6px 3px 0 black, 6px 9px 0 black, 6px 12px 0 black;
+}
+
+.y-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 3px 6px 0 black, 6px 6px 0 black, 6px 3px 0 black, 6px 0px 0 black, 3px 9px 0 black, 3px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 3px 6px 0 black, 6px 6px 0 black, 6px 3px 0 black, 6px 0px 0 black, 3px 9px 0 black, 3px 12px 0 black;
+}
+
+.z-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 9px 3px 0 black, 6px 6px 0 black, 3px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 9px 3px 0 black, 6px 6px 0 black, 3px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+}
+
+.dot-black {
+  -webkit-box-shadow: 0px 12px 0 black;
+          box-shadow: 0px 12px 0 black;
+}
+
+.comma-black {
+  -webkit-box-shadow: 0px 15px 0 black, 3px 12px 0 black;
+          box-shadow: 0px 15px 0 black, 3px 12px 0 black;
+}
+
+.exclemation-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 12px 0 black;
+}
+
+.question-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 9px 3px 0 black, 9px 6px 0 black, 6px 9px 0 black, 3px 9px 0 black, 3px 15px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 9px 3px 0 black, 9px 6px 0 black, 6px 9px 0 black, 3px 9px 0 black, 3px 15px 0 black;
+}
+
+.zero-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 6px 9px 0 black, 3px 6px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 3px 0 black, 9px 6px 0 black, 9px 9px 0 black, 6px 9px 0 black, 3px 6px 0 black;
+}
+
+.one-black {
+  -webkit-box-shadow: 3px 0px 0 black, 0px 3px 0 black, 3px 3px 0 black, 3px 6px 0 black, 3px 9px 0 black, 3px 12px 0 black, 0px 12px 0 black, 6px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 0px 3px 0 black, 3px 3px 0 black, 3px 6px 0 black, 3px 9px 0 black, 3px 12px 0 black, 0px 12px 0 black, 6px 12px 0 black;
+}
+
+.two-black {
+  -webkit-box-shadow: 0px 3px 0 black, 3px 0px 0 black, 6px 0px 0 black, 9px 3px 0 black, 6px 6px 0 black, 3px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+          box-shadow: 0px 3px 0 black, 3px 0px 0 black, 6px 0px 0 black, 9px 3px 0 black, 6px 6px 0 black, 3px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 12px 0 black;
+}
+
+.three-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 3px 0 black, 3px 6px 0 black, 6px 9px 0 black, 3px 12px 0 black, 0px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 3px 0 black, 3px 6px 0 black, 6px 9px 0 black, 3px 12px 0 black, 0px 12px 0 black;
+}
+
+.four-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 9px 0 black, 6px 9px 0 black, 6px 6px 0 black, 6px 12px 0 black, 9px 9px 0 black;
+          box-shadow: 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 9px 0 black, 6px 9px 0 black, 6px 6px 0 black, 6px 12px 0 black, 9px 9px 0 black;
+}
+
+.five-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 9px 0 black, 0px 12px 0 black, 3px 12px 0 black, 6px 12px 0 black;
+}
+
+.six-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 9px 0 black, 6px 6px 0 black, 3px 6px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 0px 6px 0 black, 0px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black, 9px 9px 0 black, 6px 6px 0 black, 3px 6px 0 black;
+}
+
+.seven-black {
+  background: black;
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 9px 3px 0 black, 6px 6px 0 black, 3px 9px 0 black, 3px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 9px 0px 0 black, 9px 3px 0 black, 6px 6px 0 black, 3px 9px 0 black, 3px 12px 0 black;
+}
+
+.eight-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 3px 12px 0 black, 6px 12px 0 black, 0px 9px 0 black, 9px 9px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 3px 12px 0 black, 6px 12px 0 black, 0px 9px 0 black, 9px 9px 0 black;
+}
+
+.nine-black {
+  -webkit-box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 6px 0 black, 9px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black;
+          box-shadow: 3px 0px 0 black, 6px 0px 0 black, 0px 3px 0 black, 9px 3px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 6px 0 black, 9px 9px 0 black, 3px 12px 0 black, 6px 12px 0 black;
+}
+
+.apostrove-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black;
+          box-shadow: 0px 3px 0 black;
+}
+
+.dapostrove-black {
+  background: black;
+  -webkit-box-shadow: 0px 3px 0 black, 6px 0px 0 black, 6px 3px 0 black;
+          box-shadow: 0px 3px 0 black, 6px 0px 0 black, 6px 3px 0 black;
+}
+
+.dash-black {
+  -webkit-box-shadow: 0px 6px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 6px 0 black;
+          box-shadow: 0px 6px 0 black, 3px 6px 0 black, 6px 6px 0 black, 9px 6px 0 black;
+}
+
+.a-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+}
+
+.b-white {
+  background: white;
+  -webkit-box-shadow: 0px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 0px 0 white, 6px 0px 0 white, 3px 6px 0 white, 6px 6px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 9px 0 white;
+          box-shadow: 0px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 0px 0 white, 6px 0px 0 white, 3px 6px 0 white, 6px 6px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 9px 0 white;
+}
+
+.c-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+}
+
+.d-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white;
+}
+
+.e-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+}
+
+.f-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white;
+}
+
+.g-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white, 9px 9px 0 white, 9px 6px 0 white, 6px 6px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white, 9px 9px 0 white, 9px 6px 0 white, 6px 6px 0 white;
+}
+
+.h-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white, 0px 12px 0 white, 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 6px 0 white, 6px 6px 0 white, 0px 12px 0 white, 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+}
+
+.i-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white;
+}
+
+.j-white {
+  -webkit-box-shadow: 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 6px 12px 0 white, 3px 12px 0 white, 0px 9px 0 white;
+          box-shadow: 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 6px 12px 0 white, 3px 12px 0 white, 0px 9px 0 white;
+}
+
+.k-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 9px 0px 0 white, 6px 3px 0 white, 3px 6px 0 white, 6px 9px 0 white, 9px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 9px 0px 0 white, 6px 3px 0 white, 3px 6px 0 white, 6px 9px 0 white, 9px 12px 0 white;
+}
+
+.l-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white;
+}
+
+.m-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 3px 0 white, 6px 6px 0 white, 9px 3px 0 white, 12px 0px 0 white, 12px 3px 0 white, 12px 6px 0 white, 12px 9px 0 white, 12px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 3px 0 white, 6px 6px 0 white, 9px 3px 0 white, 12px 0px 0 white, 12px 3px 0 white, 12px 6px 0 white, 12px 9px 0 white, 12px 12px 0 white;
+}
+
+.n-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 3px 0 white, 6px 6px 0 white, 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 3px 0 white, 6px 6px 0 white, 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+}
+
+.o-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white;
+}
+
+.p-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 0px 0 white, 6px 0px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 0px 0 white, 6px 0px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white;
+}
+
+.q-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 6px 9px 0 white, 9px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 6px 9px 0 white, 9px 12px 0 white;
+}
+
+.r-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 0px 0 white, 6px 0px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 6px 9px 0 white, 9px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 0px 0 white, 6px 0px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 6px 9px 0 white, 9px 12px 0 white;
+}
+
+.s-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 9px 0 white, 6px 12px 0 white, 3px 12px 0 white, 0px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 9px 0 white, 6px 12px 0 white, 3px 12px 0 white, 0px 12px 0 white;
+}
+
+.t-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 3px 3px 0 white, 3px 6px 0 white, 3px 9px 0 white, 3px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 3px 3px 0 white, 3px 6px 0 white, 3px 9px 0 white, 3px 12px 0 white;
+}
+
+.u-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 0px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 9px 12px 0 white;
+}
+
+.v-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 0px 0 white, 6px 3px 0 white, 6px 6px 0 white, 6px 9px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 0px 0 white, 6px 3px 0 white, 6px 6px 0 white, 6px 9px 0 white;
+}
+
+.w-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 9px 0 white, 9px 12px 0 white, 12px 0px 0 white, 12px 3px 0 white, 12px 6px 0 white, 12px 9px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 9px 0 white, 9px 12px 0 white, 12px 0px 0 white, 12px 3px 0 white, 12px 6px 0 white, 12px 9px 0 white;
+}
+
+.x-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 3px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 6px 0px 0 white, 6px 3px 0 white, 6px 9px 0 white, 6px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 3px 6px 0 white, 0px 9px 0 white, 0px 12px 0 white, 6px 0px 0 white, 6px 3px 0 white, 6px 9px 0 white, 6px 12px 0 white;
+}
+
+.y-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 3px 6px 0 white, 6px 6px 0 white, 6px 3px 0 white, 6px 0px 0 white, 3px 9px 0 white, 3px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 3px 6px 0 white, 6px 6px 0 white, 6px 3px 0 white, 6px 0px 0 white, 3px 9px 0 white, 3px 12px 0 white;
+}
+
+.z-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 9px 3px 0 white, 6px 6px 0 white, 3px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 9px 3px 0 white, 6px 6px 0 white, 3px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+}
+
+.dot-white {
+  -webkit-box-shadow: 0px 12px 0 white;
+          box-shadow: 0px 12px 0 white;
+}
+
+.comma-white {
+  -webkit-box-shadow: 0px 15px 0 white, 3px 12px 0 white;
+          box-shadow: 0px 15px 0 white, 3px 12px 0 white;
+}
+
+.exclemation-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 12px 0 white;
+}
+
+.question-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 9px 3px 0 white, 9px 6px 0 white, 6px 9px 0 white, 3px 9px 0 white, 3px 15px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 9px 3px 0 white, 9px 6px 0 white, 6px 9px 0 white, 3px 9px 0 white, 3px 15px 0 white;
+}
+
+.zero-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 6px 9px 0 white, 3px 6px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 3px 0 white, 9px 6px 0 white, 9px 9px 0 white, 6px 9px 0 white, 3px 6px 0 white;
+}
+
+.one-white {
+  -webkit-box-shadow: 3px 0px 0 white, 0px 3px 0 white, 3px 3px 0 white, 3px 6px 0 white, 3px 9px 0 white, 3px 12px 0 white, 0px 12px 0 white, 6px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 0px 3px 0 white, 3px 3px 0 white, 3px 6px 0 white, 3px 9px 0 white, 3px 12px 0 white, 0px 12px 0 white, 6px 12px 0 white;
+}
+
+.two-white {
+  -webkit-box-shadow: 0px 3px 0 white, 3px 0px 0 white, 6px 0px 0 white, 9px 3px 0 white, 6px 6px 0 white, 3px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+          box-shadow: 0px 3px 0 white, 3px 0px 0 white, 6px 0px 0 white, 9px 3px 0 white, 6px 6px 0 white, 3px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 12px 0 white;
+}
+
+.three-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 3px 0 white, 3px 6px 0 white, 6px 9px 0 white, 3px 12px 0 white, 0px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 3px 0 white, 3px 6px 0 white, 6px 9px 0 white, 3px 12px 0 white, 0px 12px 0 white;
+}
+
+.four-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 9px 0 white, 6px 9px 0 white, 6px 6px 0 white, 6px 12px 0 white, 9px 9px 0 white;
+          box-shadow: 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 9px 0 white, 6px 9px 0 white, 6px 6px 0 white, 6px 12px 0 white, 9px 9px 0 white;
+}
+
+.five-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 9px 0 white, 0px 12px 0 white, 3px 12px 0 white, 6px 12px 0 white;
+}
+
+.six-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 9px 0 white, 6px 6px 0 white, 3px 6px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 0px 6px 0 white, 0px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white, 9px 9px 0 white, 6px 6px 0 white, 3px 6px 0 white;
+}
+
+.seven-white {
+  background: white;
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 9px 3px 0 white, 6px 6px 0 white, 3px 9px 0 white, 3px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 9px 0px 0 white, 9px 3px 0 white, 6px 6px 0 white, 3px 9px 0 white, 3px 12px 0 white;
+}
+
+.eight-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 3px 12px 0 white, 6px 12px 0 white, 0px 9px 0 white, 9px 9px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 3px 12px 0 white, 6px 12px 0 white, 0px 9px 0 white, 9px 9px 0 white;
+}
+
+.nine-white {
+  -webkit-box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 6px 0 white, 9px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white;
+          box-shadow: 3px 0px 0 white, 6px 0px 0 white, 0px 3px 0 white, 9px 3px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 6px 0 white, 9px 9px 0 white, 3px 12px 0 white, 6px 12px 0 white;
+}
+
+.apostrove-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white;
+          box-shadow: 0px 3px 0 white;
+}
+
+.dapostrove-white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 0 white, 6px 0px 0 white, 6px 3px 0 white;
+          box-shadow: 0px 3px 0 white, 6px 0px 0 white, 6px 3px 0 white;
+}
+
+.dash-white {
+  -webkit-box-shadow: 0px 6px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 6px 0 white;
+          box-shadow: 0px 6px 0 white, 3px 6px 0 white, 6px 6px 0 white, 9px 6px 0 white;
+}
+
+.a-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+}
+
+.b-red {
+  background: red;
+  -webkit-box-shadow: 0px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 0px 0 red, 6px 0px 0 red, 3px 6px 0 red, 6px 6px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 9px 0 red;
+          box-shadow: 0px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 0px 0 red, 6px 0px 0 red, 3px 6px 0 red, 6px 6px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 9px 0 red;
+}
+
+.c-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+}
+
+.d-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red;
+}
+
+.e-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+}
+
+.f-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red;
+}
+
+.g-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red, 9px 9px 0 red, 9px 6px 0 red, 6px 6px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red, 9px 9px 0 red, 9px 6px 0 red, 6px 6px 0 red;
+}
+
+.h-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red, 0px 12px 0 red, 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 6px 0 red, 6px 6px 0 red, 0px 12px 0 red, 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+}
+
+.i-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red;
+}
+
+.j-red {
+  -webkit-box-shadow: 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 6px 12px 0 red, 3px 12px 0 red, 0px 9px 0 red;
+          box-shadow: 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 6px 12px 0 red, 3px 12px 0 red, 0px 9px 0 red;
+}
+
+.k-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 9px 0px 0 red, 6px 3px 0 red, 3px 6px 0 red, 6px 9px 0 red, 9px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 9px 0px 0 red, 6px 3px 0 red, 3px 6px 0 red, 6px 9px 0 red, 9px 12px 0 red;
+}
+
+.l-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red;
+}
+
+.m-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 3px 0 red, 6px 6px 0 red, 9px 3px 0 red, 12px 0px 0 red, 12px 3px 0 red, 12px 6px 0 red, 12px 9px 0 red, 12px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 3px 0 red, 6px 6px 0 red, 9px 3px 0 red, 12px 0px 0 red, 12px 3px 0 red, 12px 6px 0 red, 12px 9px 0 red, 12px 12px 0 red;
+}
+
+.n-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 3px 0 red, 6px 6px 0 red, 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 3px 0 red, 6px 6px 0 red, 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+}
+
+.o-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red;
+}
+
+.p-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 0px 0 red, 6px 0px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 0px 0 red, 6px 0px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red;
+}
+
+.q-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 6px 9px 0 red, 9px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 6px 9px 0 red, 9px 12px 0 red;
+}
+
+.r-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 0px 0 red, 6px 0px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 6px 9px 0 red, 9px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 0px 0 red, 6px 0px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 6px 9px 0 red, 9px 12px 0 red;
+}
+
+.s-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 9px 0 red, 6px 12px 0 red, 3px 12px 0 red, 0px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 9px 0 red, 6px 12px 0 red, 3px 12px 0 red, 0px 12px 0 red;
+}
+
+.t-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 3px 3px 0 red, 3px 6px 0 red, 3px 9px 0 red, 3px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 3px 3px 0 red, 3px 6px 0 red, 3px 9px 0 red, 3px 12px 0 red;
+}
+
+.u-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 0px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 9px 12px 0 red;
+}
+
+.v-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 0px 0 red, 6px 3px 0 red, 6px 6px 0 red, 6px 9px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 0px 0 red, 6px 3px 0 red, 6px 6px 0 red, 6px 9px 0 red;
+}
+
+.w-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 9px 0 red, 9px 12px 0 red, 12px 0px 0 red, 12px 3px 0 red, 12px 6px 0 red, 12px 9px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 9px 0 red, 9px 12px 0 red, 12px 0px 0 red, 12px 3px 0 red, 12px 6px 0 red, 12px 9px 0 red;
+}
+
+.x-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 3px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 6px 0px 0 red, 6px 3px 0 red, 6px 9px 0 red, 6px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 3px 6px 0 red, 0px 9px 0 red, 0px 12px 0 red, 6px 0px 0 red, 6px 3px 0 red, 6px 9px 0 red, 6px 12px 0 red;
+}
+
+.y-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 3px 6px 0 red, 6px 6px 0 red, 6px 3px 0 red, 6px 0px 0 red, 3px 9px 0 red, 3px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 3px 6px 0 red, 6px 6px 0 red, 6px 3px 0 red, 6px 0px 0 red, 3px 9px 0 red, 3px 12px 0 red;
+}
+
+.z-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 9px 3px 0 red, 6px 6px 0 red, 3px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 9px 3px 0 red, 6px 6px 0 red, 3px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+}
+
+.dot-red {
+  -webkit-box-shadow: 0px 12px 0 red;
+          box-shadow: 0px 12px 0 red;
+}
+
+.comma-red {
+  -webkit-box-shadow: 0px 15px 0 red, 3px 12px 0 red;
+          box-shadow: 0px 15px 0 red, 3px 12px 0 red;
+}
+
+.exclemation-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 12px 0 red;
+}
+
+.question-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 9px 3px 0 red, 9px 6px 0 red, 6px 9px 0 red, 3px 9px 0 red, 3px 15px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 9px 3px 0 red, 9px 6px 0 red, 6px 9px 0 red, 3px 9px 0 red, 3px 15px 0 red;
+}
+
+.zero-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 6px 9px 0 red, 3px 6px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 3px 0 red, 9px 6px 0 red, 9px 9px 0 red, 6px 9px 0 red, 3px 6px 0 red;
+}
+
+.one-red {
+  -webkit-box-shadow: 3px 0px 0 red, 0px 3px 0 red, 3px 3px 0 red, 3px 6px 0 red, 3px 9px 0 red, 3px 12px 0 red, 0px 12px 0 red, 6px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 0px 3px 0 red, 3px 3px 0 red, 3px 6px 0 red, 3px 9px 0 red, 3px 12px 0 red, 0px 12px 0 red, 6px 12px 0 red;
+}
+
+.two-red {
+  -webkit-box-shadow: 0px 3px 0 red, 3px 0px 0 red, 6px 0px 0 red, 9px 3px 0 red, 6px 6px 0 red, 3px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+          box-shadow: 0px 3px 0 red, 3px 0px 0 red, 6px 0px 0 red, 9px 3px 0 red, 6px 6px 0 red, 3px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 12px 0 red;
+}
+
+.three-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 3px 0 red, 3px 6px 0 red, 6px 9px 0 red, 3px 12px 0 red, 0px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 3px 0 red, 3px 6px 0 red, 6px 9px 0 red, 3px 12px 0 red, 0px 12px 0 red;
+}
+
+.four-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 9px 0 red, 6px 9px 0 red, 6px 6px 0 red, 6px 12px 0 red, 9px 9px 0 red;
+          box-shadow: 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 9px 0 red, 6px 9px 0 red, 6px 6px 0 red, 6px 12px 0 red, 9px 9px 0 red;
+}
+
+.five-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 9px 0 red, 0px 12px 0 red, 3px 12px 0 red, 6px 12px 0 red;
+}
+
+.six-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 9px 0 red, 6px 6px 0 red, 3px 6px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 0px 6px 0 red, 0px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red, 9px 9px 0 red, 6px 6px 0 red, 3px 6px 0 red;
+}
+
+.seven-red {
+  background: red;
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 9px 3px 0 red, 6px 6px 0 red, 3px 9px 0 red, 3px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 9px 0px 0 red, 9px 3px 0 red, 6px 6px 0 red, 3px 9px 0 red, 3px 12px 0 red;
+}
+
+.eight-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 3px 12px 0 red, 6px 12px 0 red, 0px 9px 0 red, 9px 9px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 3px 12px 0 red, 6px 12px 0 red, 0px 9px 0 red, 9px 9px 0 red;
+}
+
+.nine-red {
+  -webkit-box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 6px 0 red, 9px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red;
+          box-shadow: 3px 0px 0 red, 6px 0px 0 red, 0px 3px 0 red, 9px 3px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 6px 0 red, 9px 9px 0 red, 3px 12px 0 red, 6px 12px 0 red;
+}
+
+.apostrove-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red;
+          box-shadow: 0px 3px 0 red;
+}
+
+.dapostrove-red {
+  background: red;
+  -webkit-box-shadow: 0px 3px 0 red, 6px 0px 0 red, 6px 3px 0 red;
+          box-shadow: 0px 3px 0 red, 6px 0px 0 red, 6px 3px 0 red;
+}
+
+.dash-red {
+  -webkit-box-shadow: 0px 6px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 6px 0 red;
+          box-shadow: 0px 6px 0 red, 3px 6px 0 red, 6px 6px 0 red, 9px 6px 0 red;
+}
+
+.a-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+}
+
+.b-green {
+  background: green;
+  -webkit-box-shadow: 0px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 0px 0 green, 6px 0px 0 green, 3px 6px 0 green, 6px 6px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 9px 0 green;
+          box-shadow: 0px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 0px 0 green, 6px 0px 0 green, 3px 6px 0 green, 6px 6px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 9px 0 green;
+}
+
+.c-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+}
+
+.d-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green;
+}
+
+.e-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+}
+
+.f-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green;
+}
+
+.g-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green, 9px 9px 0 green, 9px 6px 0 green, 6px 6px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green, 9px 9px 0 green, 9px 6px 0 green, 6px 6px 0 green;
+}
+
+.h-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green, 0px 12px 0 green, 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 6px 0 green, 6px 6px 0 green, 0px 12px 0 green, 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+}
+
+.i-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green;
+}
+
+.j-green {
+  -webkit-box-shadow: 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 6px 12px 0 green, 3px 12px 0 green, 0px 9px 0 green;
+          box-shadow: 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 6px 12px 0 green, 3px 12px 0 green, 0px 9px 0 green;
+}
+
+.k-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 9px 0px 0 green, 6px 3px 0 green, 3px 6px 0 green, 6px 9px 0 green, 9px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 9px 0px 0 green, 6px 3px 0 green, 3px 6px 0 green, 6px 9px 0 green, 9px 12px 0 green;
+}
+
+.l-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green;
+}
+
+.m-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 3px 0 green, 6px 6px 0 green, 9px 3px 0 green, 12px 0px 0 green, 12px 3px 0 green, 12px 6px 0 green, 12px 9px 0 green, 12px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 3px 0 green, 6px 6px 0 green, 9px 3px 0 green, 12px 0px 0 green, 12px 3px 0 green, 12px 6px 0 green, 12px 9px 0 green, 12px 12px 0 green;
+}
+
+.n-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 3px 0 green, 6px 6px 0 green, 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 3px 0 green, 6px 6px 0 green, 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+}
+
+.o-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green;
+}
+
+.p-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 0px 0 green, 6px 0px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 0px 0 green, 6px 0px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green;
+}
+
+.q-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 6px 9px 0 green, 9px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 6px 9px 0 green, 9px 12px 0 green;
+}
+
+.r-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 0px 0 green, 6px 0px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 6px 9px 0 green, 9px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 0px 0 green, 6px 0px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 6px 9px 0 green, 9px 12px 0 green;
+}
+
+.s-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 9px 0 green, 6px 12px 0 green, 3px 12px 0 green, 0px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 9px 0 green, 6px 12px 0 green, 3px 12px 0 green, 0px 12px 0 green;
+}
+
+.t-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 3px 3px 0 green, 3px 6px 0 green, 3px 9px 0 green, 3px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 3px 3px 0 green, 3px 6px 0 green, 3px 9px 0 green, 3px 12px 0 green;
+}
+
+.u-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 0px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 9px 12px 0 green;
+}
+
+.v-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 0px 0 green, 6px 3px 0 green, 6px 6px 0 green, 6px 9px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 0px 0 green, 6px 3px 0 green, 6px 6px 0 green, 6px 9px 0 green;
+}
+
+.w-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 9px 0 green, 9px 12px 0 green, 12px 0px 0 green, 12px 3px 0 green, 12px 6px 0 green, 12px 9px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 9px 0 green, 9px 12px 0 green, 12px 0px 0 green, 12px 3px 0 green, 12px 6px 0 green, 12px 9px 0 green;
+}
+
+.x-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 3px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 6px 0px 0 green, 6px 3px 0 green, 6px 9px 0 green, 6px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 3px 6px 0 green, 0px 9px 0 green, 0px 12px 0 green, 6px 0px 0 green, 6px 3px 0 green, 6px 9px 0 green, 6px 12px 0 green;
+}
+
+.y-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 3px 6px 0 green, 6px 6px 0 green, 6px 3px 0 green, 6px 0px 0 green, 3px 9px 0 green, 3px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 3px 6px 0 green, 6px 6px 0 green, 6px 3px 0 green, 6px 0px 0 green, 3px 9px 0 green, 3px 12px 0 green;
+}
+
+.z-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 9px 3px 0 green, 6px 6px 0 green, 3px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 9px 3px 0 green, 6px 6px 0 green, 3px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+}
+
+.dot-green {
+  -webkit-box-shadow: 0px 12px 0 green;
+          box-shadow: 0px 12px 0 green;
+}
+
+.comma-green {
+  -webkit-box-shadow: 0px 15px 0 green, 3px 12px 0 green;
+          box-shadow: 0px 15px 0 green, 3px 12px 0 green;
+}
+
+.exclemation-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 12px 0 green;
+}
+
+.question-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 9px 3px 0 green, 9px 6px 0 green, 6px 9px 0 green, 3px 9px 0 green, 3px 15px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 9px 3px 0 green, 9px 6px 0 green, 6px 9px 0 green, 3px 9px 0 green, 3px 15px 0 green;
+}
+
+.zero-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 6px 9px 0 green, 3px 6px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 3px 0 green, 9px 6px 0 green, 9px 9px 0 green, 6px 9px 0 green, 3px 6px 0 green;
+}
+
+.one-green {
+  -webkit-box-shadow: 3px 0px 0 green, 0px 3px 0 green, 3px 3px 0 green, 3px 6px 0 green, 3px 9px 0 green, 3px 12px 0 green, 0px 12px 0 green, 6px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 0px 3px 0 green, 3px 3px 0 green, 3px 6px 0 green, 3px 9px 0 green, 3px 12px 0 green, 0px 12px 0 green, 6px 12px 0 green;
+}
+
+.two-green {
+  -webkit-box-shadow: 0px 3px 0 green, 3px 0px 0 green, 6px 0px 0 green, 9px 3px 0 green, 6px 6px 0 green, 3px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+          box-shadow: 0px 3px 0 green, 3px 0px 0 green, 6px 0px 0 green, 9px 3px 0 green, 6px 6px 0 green, 3px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 12px 0 green;
+}
+
+.three-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 3px 0 green, 3px 6px 0 green, 6px 9px 0 green, 3px 12px 0 green, 0px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 3px 0 green, 3px 6px 0 green, 6px 9px 0 green, 3px 12px 0 green, 0px 12px 0 green;
+}
+
+.four-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 9px 0 green, 6px 9px 0 green, 6px 6px 0 green, 6px 12px 0 green, 9px 9px 0 green;
+          box-shadow: 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 9px 0 green, 6px 9px 0 green, 6px 6px 0 green, 6px 12px 0 green, 9px 9px 0 green;
+}
+
+.five-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 9px 0 green, 0px 12px 0 green, 3px 12px 0 green, 6px 12px 0 green;
+}
+
+.six-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 9px 0 green, 6px 6px 0 green, 3px 6px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 0px 6px 0 green, 0px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green, 9px 9px 0 green, 6px 6px 0 green, 3px 6px 0 green;
+}
+
+.seven-green {
+  background: green;
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 9px 3px 0 green, 6px 6px 0 green, 3px 9px 0 green, 3px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 9px 0px 0 green, 9px 3px 0 green, 6px 6px 0 green, 3px 9px 0 green, 3px 12px 0 green;
+}
+
+.eight-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 3px 12px 0 green, 6px 12px 0 green, 0px 9px 0 green, 9px 9px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 3px 12px 0 green, 6px 12px 0 green, 0px 9px 0 green, 9px 9px 0 green;
+}
+
+.nine-green {
+  -webkit-box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 6px 0 green, 9px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green;
+          box-shadow: 3px 0px 0 green, 6px 0px 0 green, 0px 3px 0 green, 9px 3px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 6px 0 green, 9px 9px 0 green, 3px 12px 0 green, 6px 12px 0 green;
+}
+
+.apostrove-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green;
+          box-shadow: 0px 3px 0 green;
+}
+
+.dapostrove-green {
+  background: green;
+  -webkit-box-shadow: 0px 3px 0 green, 6px 0px 0 green, 6px 3px 0 green;
+          box-shadow: 0px 3px 0 green, 6px 0px 0 green, 6px 3px 0 green;
+}
+
+.dash-green {
+  -webkit-box-shadow: 0px 6px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 6px 0 green;
+          box-shadow: 0px 6px 0 green, 3px 6px 0 green, 6px 6px 0 green, 9px 6px 0 green;
+}
+
+.a-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+}
+
+.b-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 9px 0 yellow;
+          box-shadow: 0px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 9px 0 yellow;
+}
+
+.c-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+}
+
+.d-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow;
+}
+
+.e-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+}
+
+.f-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow;
+}
+
+.g-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow, 9px 9px 0 yellow, 9px 6px 0 yellow, 6px 6px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow, 9px 9px 0 yellow, 9px 6px 0 yellow, 6px 6px 0 yellow;
+}
+
+.h-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 0px 12px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 0px 12px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+}
+
+.i-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow;
+}
+
+.j-yellow {
+  -webkit-box-shadow: 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 6px 12px 0 yellow, 3px 12px 0 yellow, 0px 9px 0 yellow;
+          box-shadow: 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 6px 12px 0 yellow, 3px 12px 0 yellow, 0px 9px 0 yellow;
+}
+
+.k-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 9px 0px 0 yellow, 6px 3px 0 yellow, 3px 6px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 9px 0px 0 yellow, 6px 3px 0 yellow, 3px 6px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow;
+}
+
+.l-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow;
+}
+
+.m-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 3px 0 yellow, 6px 6px 0 yellow, 9px 3px 0 yellow, 12px 0px 0 yellow, 12px 3px 0 yellow, 12px 6px 0 yellow, 12px 9px 0 yellow, 12px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 3px 0 yellow, 6px 6px 0 yellow, 9px 3px 0 yellow, 12px 0px 0 yellow, 12px 3px 0 yellow, 12px 6px 0 yellow, 12px 9px 0 yellow, 12px 12px 0 yellow;
+}
+
+.n-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 3px 0 yellow, 6px 6px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 3px 0 yellow, 6px 6px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+}
+
+.o-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow;
+}
+
+.p-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow;
+}
+
+.q-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow;
+}
+
+.r-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow;
+}
+
+.s-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 9px 0 yellow, 6px 12px 0 yellow, 3px 12px 0 yellow, 0px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 9px 0 yellow, 6px 12px 0 yellow, 3px 12px 0 yellow, 0px 12px 0 yellow;
+}
+
+.t-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 3px 3px 0 yellow, 3px 6px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 3px 3px 0 yellow, 3px 6px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow;
+}
+
+.u-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 9px 12px 0 yellow;
+}
+
+.v-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 0px 0 yellow, 6px 3px 0 yellow, 6px 6px 0 yellow, 6px 9px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 0px 0 yellow, 6px 3px 0 yellow, 6px 6px 0 yellow, 6px 9px 0 yellow;
+}
+
+.w-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow, 12px 0px 0 yellow, 12px 3px 0 yellow, 12px 6px 0 yellow, 12px 9px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 9px 0 yellow, 9px 12px 0 yellow, 12px 0px 0 yellow, 12px 3px 0 yellow, 12px 6px 0 yellow, 12px 9px 0 yellow;
+}
+
+.x-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 3px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 6px 0px 0 yellow, 6px 3px 0 yellow, 6px 9px 0 yellow, 6px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 3px 6px 0 yellow, 0px 9px 0 yellow, 0px 12px 0 yellow, 6px 0px 0 yellow, 6px 3px 0 yellow, 6px 9px 0 yellow, 6px 12px 0 yellow;
+}
+
+.y-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 6px 3px 0 yellow, 6px 0px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 6px 3px 0 yellow, 6px 0px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow;
+}
+
+.z-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 6px 6px 0 yellow, 3px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 6px 6px 0 yellow, 3px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+}
+
+.dot-yellow {
+  -webkit-box-shadow: 0px 12px 0 yellow;
+          box-shadow: 0px 12px 0 yellow;
+}
+
+.comma-yellow {
+  -webkit-box-shadow: 0px 15px 0 yellow, 3px 12px 0 yellow;
+          box-shadow: 0px 15px 0 yellow, 3px 12px 0 yellow;
+}
+
+.exclemation-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 12px 0 yellow;
+}
+
+.question-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 6px 9px 0 yellow, 3px 9px 0 yellow, 3px 15px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 6px 9px 0 yellow, 3px 9px 0 yellow, 3px 15px 0 yellow;
+}
+
+.zero-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 6px 9px 0 yellow, 3px 6px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 3px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 6px 9px 0 yellow, 3px 6px 0 yellow;
+}
+
+.one-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 0px 3px 0 yellow, 3px 3px 0 yellow, 3px 6px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow, 0px 12px 0 yellow, 6px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 0px 3px 0 yellow, 3px 3px 0 yellow, 3px 6px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow, 0px 12px 0 yellow, 6px 12px 0 yellow;
+}
+
+.two-yellow {
+  -webkit-box-shadow: 0px 3px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 3px 0 yellow, 6px 6px 0 yellow, 3px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 3px 0 yellow, 6px 6px 0 yellow, 3px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 12px 0 yellow;
+}
+
+.three-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 3px 0 yellow, 3px 6px 0 yellow, 6px 9px 0 yellow, 3px 12px 0 yellow, 0px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 3px 0 yellow, 3px 6px 0 yellow, 6px 9px 0 yellow, 3px 12px 0 yellow, 0px 12px 0 yellow;
+}
+
+.four-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 9px 0 yellow, 6px 9px 0 yellow, 6px 6px 0 yellow, 6px 12px 0 yellow, 9px 9px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 9px 0 yellow, 6px 9px 0 yellow, 6px 6px 0 yellow, 6px 12px 0 yellow, 9px 9px 0 yellow;
+}
+
+.five-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 9px 0 yellow, 0px 12px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow;
+}
+
+.six-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 9px 0 yellow, 6px 6px 0 yellow, 3px 6px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 0px 6px 0 yellow, 0px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 9px 9px 0 yellow, 6px 6px 0 yellow, 3px 6px 0 yellow;
+}
+
+.seven-yellow {
+  background: yellow;
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 6px 6px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 9px 0px 0 yellow, 9px 3px 0 yellow, 6px 6px 0 yellow, 3px 9px 0 yellow, 3px 12px 0 yellow;
+}
+
+.eight-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 0px 9px 0 yellow, 9px 9px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow, 0px 9px 0 yellow, 9px 9px 0 yellow;
+}
+
+.nine-yellow {
+  -webkit-box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow;
+          box-shadow: 3px 0px 0 yellow, 6px 0px 0 yellow, 0px 3px 0 yellow, 9px 3px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 6px 0 yellow, 9px 9px 0 yellow, 3px 12px 0 yellow, 6px 12px 0 yellow;
+}
+
+.apostrove-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow;
+          box-shadow: 0px 3px 0 yellow;
+}
+
+.dapostrove-yellow {
+  background: yellow;
+  -webkit-box-shadow: 0px 3px 0 yellow, 6px 0px 0 yellow, 6px 3px 0 yellow;
+          box-shadow: 0px 3px 0 yellow, 6px 0px 0 yellow, 6px 3px 0 yellow;
+}
+
+.dash-yellow {
+  -webkit-box-shadow: 0px 6px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 6px 0 yellow;
+          box-shadow: 0px 6px 0 yellow, 3px 6px 0 yellow, 6px 6px 0 yellow, 9px 6px 0 yellow;
+}
+
+.a-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+}
+
+.b-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 9px 0 blue;
+          box-shadow: 0px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 9px 0 blue;
+}
+
+.c-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+}
+
+.d-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue;
+}
+
+.e-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+}
+
+.f-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue;
+}
+
+.g-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue, 9px 9px 0 blue, 9px 6px 0 blue, 6px 6px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue, 9px 9px 0 blue, 9px 6px 0 blue, 6px 6px 0 blue;
+}
+
+.h-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 0px 12px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 0px 12px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+}
+
+.i-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue;
+}
+
+.j-blue {
+  -webkit-box-shadow: 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 6px 12px 0 blue, 3px 12px 0 blue, 0px 9px 0 blue;
+          box-shadow: 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 6px 12px 0 blue, 3px 12px 0 blue, 0px 9px 0 blue;
+}
+
+.k-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 9px 0px 0 blue, 6px 3px 0 blue, 3px 6px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 9px 0px 0 blue, 6px 3px 0 blue, 3px 6px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue;
+}
+
+.l-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue;
+}
+
+.m-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 3px 0 blue, 6px 6px 0 blue, 9px 3px 0 blue, 12px 0px 0 blue, 12px 3px 0 blue, 12px 6px 0 blue, 12px 9px 0 blue, 12px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 3px 0 blue, 6px 6px 0 blue, 9px 3px 0 blue, 12px 0px 0 blue, 12px 3px 0 blue, 12px 6px 0 blue, 12px 9px 0 blue, 12px 12px 0 blue;
+}
+
+.n-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 3px 0 blue, 6px 6px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 3px 0 blue, 6px 6px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+}
+
+.o-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue;
+}
+
+.p-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue;
+}
+
+.q-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue;
+}
+
+.r-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue;
+}
+
+.s-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 9px 0 blue, 6px 12px 0 blue, 3px 12px 0 blue, 0px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 9px 0 blue, 6px 12px 0 blue, 3px 12px 0 blue, 0px 12px 0 blue;
+}
+
+.t-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 3px 3px 0 blue, 3px 6px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 3px 3px 0 blue, 3px 6px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue;
+}
+
+.u-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 9px 12px 0 blue;
+}
+
+.v-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 0px 0 blue, 6px 3px 0 blue, 6px 6px 0 blue, 6px 9px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 0px 0 blue, 6px 3px 0 blue, 6px 6px 0 blue, 6px 9px 0 blue;
+}
+
+.w-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue, 12px 0px 0 blue, 12px 3px 0 blue, 12px 6px 0 blue, 12px 9px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 9px 0 blue, 9px 12px 0 blue, 12px 0px 0 blue, 12px 3px 0 blue, 12px 6px 0 blue, 12px 9px 0 blue;
+}
+
+.x-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 3px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 6px 0px 0 blue, 6px 3px 0 blue, 6px 9px 0 blue, 6px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 3px 6px 0 blue, 0px 9px 0 blue, 0px 12px 0 blue, 6px 0px 0 blue, 6px 3px 0 blue, 6px 9px 0 blue, 6px 12px 0 blue;
+}
+
+.y-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 6px 3px 0 blue, 6px 0px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 6px 3px 0 blue, 6px 0px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue;
+}
+
+.z-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 6px 6px 0 blue, 3px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 6px 6px 0 blue, 3px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+}
+
+.dot-blue {
+  -webkit-box-shadow: 0px 12px 0 blue;
+          box-shadow: 0px 12px 0 blue;
+}
+
+.comma-blue {
+  -webkit-box-shadow: 0px 15px 0 blue, 3px 12px 0 blue;
+          box-shadow: 0px 15px 0 blue, 3px 12px 0 blue;
+}
+
+.exclemation-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 12px 0 blue;
+}
+
+.question-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 6px 9px 0 blue, 3px 9px 0 blue, 3px 15px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 6px 9px 0 blue, 3px 9px 0 blue, 3px 15px 0 blue;
+}
+
+.zero-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 6px 9px 0 blue, 3px 6px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 3px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 6px 9px 0 blue, 3px 6px 0 blue;
+}
+
+.one-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 0px 3px 0 blue, 3px 3px 0 blue, 3px 6px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue, 0px 12px 0 blue, 6px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 0px 3px 0 blue, 3px 3px 0 blue, 3px 6px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue, 0px 12px 0 blue, 6px 12px 0 blue;
+}
+
+.two-blue {
+  -webkit-box-shadow: 0px 3px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 9px 3px 0 blue, 6px 6px 0 blue, 3px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+          box-shadow: 0px 3px 0 blue, 3px 0px 0 blue, 6px 0px 0 blue, 9px 3px 0 blue, 6px 6px 0 blue, 3px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 12px 0 blue;
+}
+
+.three-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 3px 0 blue, 3px 6px 0 blue, 6px 9px 0 blue, 3px 12px 0 blue, 0px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 3px 0 blue, 3px 6px 0 blue, 6px 9px 0 blue, 3px 12px 0 blue, 0px 12px 0 blue;
+}
+
+.four-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 9px 0 blue, 6px 9px 0 blue, 6px 6px 0 blue, 6px 12px 0 blue, 9px 9px 0 blue;
+          box-shadow: 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 9px 0 blue, 6px 9px 0 blue, 6px 6px 0 blue, 6px 12px 0 blue, 9px 9px 0 blue;
+}
+
+.five-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 9px 0 blue, 0px 12px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue;
+}
+
+.six-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 9px 0 blue, 6px 6px 0 blue, 3px 6px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 0px 6px 0 blue, 0px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 9px 9px 0 blue, 6px 6px 0 blue, 3px 6px 0 blue;
+}
+
+.seven-blue {
+  background: blue;
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 6px 6px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 9px 0px 0 blue, 9px 3px 0 blue, 6px 6px 0 blue, 3px 9px 0 blue, 3px 12px 0 blue;
+}
+
+.eight-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 0px 9px 0 blue, 9px 9px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue, 0px 9px 0 blue, 9px 9px 0 blue;
+}
+
+.nine-blue {
+  -webkit-box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue;
+          box-shadow: 3px 0px 0 blue, 6px 0px 0 blue, 0px 3px 0 blue, 9px 3px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 6px 0 blue, 9px 9px 0 blue, 3px 12px 0 blue, 6px 12px 0 blue;
+}
+
+.apostrove-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue;
+          box-shadow: 0px 3px 0 blue;
+}
+
+.dapostrove-blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 0 blue, 6px 0px 0 blue, 6px 3px 0 blue;
+          box-shadow: 0px 3px 0 blue, 6px 0px 0 blue, 6px 3px 0 blue;
+}
+
+.dash-blue {
+  -webkit-box-shadow: 0px 6px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 6px 0 blue;
+          box-shadow: 0px 6px 0 blue, 3px 6px 0 blue, 6px 6px 0 blue, 9px 6px 0 blue;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #44A;
+  -webkit-box-shadow: 0 2px 10px #444;
+          box-shadow: 0 2px 10px #444;
+}
+
+.header-container {
+  width: 50%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'rubik';
+  margin-bottom: 10px;
+  color: #FFF;
+}
