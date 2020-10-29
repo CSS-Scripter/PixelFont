@@ -30,7 +30,7 @@ let specialCharacters = {
     '-': 'dash',
 }
 
-function renderPixelArtById(elementId, speed, color="black") {
+function renderPixelArtById(elementId, speed = 0) {
     const element = document.querySelector(`#${elementId}`)
     if (element != null) {
         renderPixelArtByElement(element, speed, color)
@@ -39,23 +39,29 @@ function renderPixelArtById(elementId, speed, color="black") {
     }
 }
 
-async function renderPixelArtByElement(element, speed, color="black") {
-    color = element.getAttribute('data-color') != null ? element.getAttribute('data-color') : color
-
+async function renderPixelArtByElement(element, speed = 0) {
     const innerHTML = element.innerHTML
     element.innerHTML = '<span class="word">'
 
     for (let char of innerHTML) {
         char = specialCharacters[char] != null ? specialCharacters[char] : char
-        let letter = `<div class="letter-container ${char.toLowerCase()}"><div class="${char.toLowerCase()}-${color} letter"></div></div>\n`
+        let letter = `<div class="letter-container ${char.toLowerCase()}"><div class="${char.toLowerCase()} letter"></div></div>\n`
         element.querySelector('.word:last-child').innerHTML += letter
         if (char === specialCharacters[' ']) {
             element.innerHTML += '<span class="word">\n'
         }
-        await sleep(speed)
+        if (speed > 0)
+            await sleep(speed)
     }
 }
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function scrollToElement(id) {
+    console.log(id);
+    var element = document.getElementById(id);
+    console.log(element);
+    element.scrollIntoView({behavior: "smooth", alignToTop: true, inline: "nearest"})
 }

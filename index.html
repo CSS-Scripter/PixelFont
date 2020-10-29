@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PixelFont</title>
+    <meta name="description" content="A pure CSS pixel-art style font.">
 
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
@@ -13,8 +14,37 @@
     <header>
         <div class="header-container">
             <h1>PixelFont</h1>
-            <div class="pixelated" data-color="white">A pure CSS font - For all your sans-undertale needs</div>
+            <div class="pixelated medium white">A pure CSS font - For all your sans-undertale needs</div>
         </div>
     </header>
+    <main class="page-content">
+        <nav>
+            <ul>
+                <li><a onclick="scrollToElement('useit')">Why should I use pixelfont</a></li>
+                <li><a>Why should I use pixelfont</a></li>
+                <li><a>Why should I use pixelfont</a></li>
+                <li><a onclick="scrollToElement('yay')">Why should I use pixelfont</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="useit">
+                <h2>You should totally use our font</h2>
+                <p class="pixelated medium black">Why you ask? Pixelfont can create great improvements, such as
+                    <ul>
+                        <li class="pixelated small black">- Increased loading times</li>
+                        <li class="pixelated small black">- Client side rendering</li>
+                        <li class="pixelated small black">- No hassle with font files (what even are those anyway)</li>
+                        <li class="pixelated small black">- Seriously, there is a reason I made this in a folder called "This should be illegal"</li>
+                    </ul>
+                </p>
+            </section>
+            <div class="spacer"></div>
+            <section id="yay">
+                <h2>Yay, you made it!</h2>
+                <p>This font is really extraordinary</p>
+            </section>
+            <div class="spacer"></div>
+        </main>
+    </main>
 </body>
 </html>

@@ -26,3 +26,66 @@ h1 {
     margin-bottom: 10px;
     color: #FFF;
 }
+
+nav {
+    background-color: #FFF;
+    display: inline-block;
+    height: 100%;
+    position: sticky;
+    top: 2em;
+    margin: 0 2em;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px #CCC;
+    user-select: none;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li{ 
+            a {
+                padding: 1em;
+                display: block;
+                text-align: left;
+            }
+            
+            &:first-child a {
+                padding-top: 1.5em;
+                border-radius: 16px 16px 0 0;
+            }
+
+            &:last-child a {
+                padding-bottom: 1.5em;
+                border-radius: 0 0 16px 16px;
+            }
+        }
+        &:hover li a {
+            opacity: .5;
+
+            &:hover {
+                text-decoration: underline;
+                background-color: #eee;
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.spacer {
+    display: block;
+    height: 2000px;
+}
+
+main.page-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    font-family: "Rubik";
+}
+
+h2 {
+    margin: 0;
+    padding-top: 1.5em;
+}
