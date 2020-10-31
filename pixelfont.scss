@@ -33,18 +33,16 @@ $colors: black, white, red, green, yellow, blue;
                 padding-right: $font-size;
                 height: 5*$font-size;
                 margin-bottom: $font-size;
-            }
-            
-            .letter-container.i {
-                width: $font-size;
-            }
-            
-            .letter-container.m {
-                width: 5*$font-size;
-            }
-
-            .letter-container.w {
-                width: 5*$font-size;
+        
+                &.i {width: $font-size;}
+                &.l {width: 3*$font-size;}
+                &.m {width: 5*$font-size;}
+                &.t {width: 3*$font-size;}
+                &.w {width: 5*$font-size;}
+                &.x {width: 3*$font-size;}
+                &.space {width: 3*$font-size;}
+                &.dot {width: $font-size;}
+                &.comma {width: 2*$font-size;}
             }
             
             div.letter {

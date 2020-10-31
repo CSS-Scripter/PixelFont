@@ -7,8 +7,10 @@
     <meta name="description" content="A pure CSS pixel-art style font.">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pixelfont.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <script src="main.js"></script>
+    <script src="pixelfont.js"></script>
 </head>
 <body>
     <header>
@@ -17,19 +19,19 @@
             <div class="pixelated medium white">A pure CSS font - For all your sans-undertale needs</div>
         </div>
     </header>
-    <main class="page-content">
+    <main class="with-nav">
         <nav>
             <ul>
-                <li><a onclick="scrollToElement('useit')">Why should I use pixelfont</a></li>
-                <li><a>Why should I use pixelfont</a></li>
-                <li><a>Why should I use pixelfont</a></li>
-                <li><a onclick="scrollToElement('yay')">Why should I use pixelfont</a></li>
+                <li><a onclick="scrollToElement('useit')">You should totally use our font</a></li>
+                <li><a onclick="scrollToElement('doesitwork')">How does it work?</a></li>
+                <li><a onclick="scrollToElement('usage')">How do I use it?</a></li>
+                <li><a onclick="scrollToElement('credit')">Who made this monstrocity?</a></li>
             </ul>
         </nav>
-        <main>
+        <main class="page-content">
             <section id="useit">
                 <h2>You should totally use our font</h2>
-                <p class="pixelated medium black">Why you ask? Pixelfont can create great improvements, such as
+                <p>Why you ask? Pixelfont can create great improvements, such as
                     <ul>
                         <li class="pixelated small black">- Increased loading times</li>
                         <li class="pixelated small black">- Client side rendering</li>
@@ -38,13 +40,83 @@
                     </ul>
                 </p>
             </section>
-            <div class="spacer"></div>
-            <section id="yay">
-                <h2>Yay, you made it!</h2>
-                <p>This font is really extraordinary</p>
+            <section id="doesitwork">
+                <h2>How does it work?</h2>
+                Essentially, box shadows. We made alot of classes, 1 for every character to be precies. 
+                Every class has it's own box-shadow, making it a letter. With some javascript we scan the page
+                for which elements to pixelfy, and pixelfy them by changing it into div's upon div's with different box-shadows.
+                
+                <div>
+                    For example<br />
+                    <code>
+                        &lt;p class="pixelated small black"&gt;Hello&lt;/p&gt;
+                    </code><br /><br />
+
+                    will be changed into<br />
+                    <code>
+                        &lt;p class="pixelated small black"&gt;
+                        <span class="indent-1">&lt;span class="word"&gt;</span>
+                        <span class="indent-2">&lt;div class="letter-container h"&gt;&lt;div class="h letter"&gt;&lt;/div&gt;&lt;/div&gt;</span>
+                        <span class="indent-2">&lt;div class="letter-container e"&gt;&lt;div class="e letter"&gt;&lt;/div&gt;&lt;/div&gt;</span>
+                        <span class="indent-2">&lt;div class="letter-container l"&gt;&lt;div class="l letter"&gt;&lt;/div&gt;&lt;/div&gt;</span>
+                        <span class="indent-2">&lt;div class="letter-container l"&gt;&lt;div class="l letter"&gt;&lt;/div&gt;&lt;/div&gt;</span>
+                        <span class="indent-2">&lt;div class="letter-container o"&gt;&lt;div class="o letter"&gt;&lt;/div&gt;&lt;/div&gt;</span>
+                        <span class="indent-1">&lt;/span&gt;</span>
+                        &lt;/p&gt;
+                    </code>
+                </div>
             </section>
-            <div class="spacer"></div>
+            <section id="usage">
+                <h2>How do I use it?</h2>
+                <p>It's really simple. Just give your element class pixelated, a color and a size.
+                    <table>
+                        <tr>
+                            <th>Possible colors</th>
+                            <th>Possible Sizes</th>
+                        </tr>
+                        <tr>
+                            <td>black</td>
+                            <td>xsmall</td>
+                        </tr>
+                        <tr>
+                            <td>white</td>
+                            <td>small</td>
+                        </tr>
+                        <tr>
+                            <td>red</td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td>green</td>
+                            <td>large</td>
+                        </tr>
+                        <tr>
+                            <td>yellow</td>
+                            <td>xlarge</td>
+                        </tr>
+                        <tr>
+                            <td>blue</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <br /><br />
+                    Example code:<br />
+                    <code>
+                        &lt;p class="pixelated small black"&gt;Hello World!&lt;/p&gt;
+                    </code><br /><br />
+                    Output:
+                    <p class="pixelated small black">Hello World!</p>
+
+                </p>
+            </section>
+            <section id="credit">
+                <h2>Where can I find the monstrocity of code that you call CSS?</h2>
+                <p>On my <a href="https://github.com/CSS-Scripter/PixelFont" tartet="_blank">github</a> page, with this site as example page, and a complementary template page!</p>
+            </section>
         </main>
     </main>
+    <footer>
+        Created by Thom, also known as CSS-Scripter <span class="small-text">(this name started off as a joke, but now I'm reconsidering my carreer choises)</span>
+    </footer>
 </body>
 </html>
