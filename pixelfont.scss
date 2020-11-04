@@ -6,7 +6,12 @@ $sizes: (
     "large": 4px, 
     "xlarge": 5px);
 
-$colors: black, white, red, green, yellow, blue;
+$colors: (
+    "black": #000, 
+    "white": #FFF, 
+    "red": #C00, 
+    "green": #0C0,
+    "blue": #00C);
 
 .pixelated{
     color: transparent;
@@ -24,7 +29,7 @@ $colors: black, white, red, green, yellow, blue;
     justify-content: flex-start;
 }
 
-@each $font-color in $colors {
+@each $color-name, $font-color in $colors {
     @each $size-name, $font-size in $sizes {
         .#{$size-name} {
             div.letter-container {
@@ -51,7 +56,7 @@ $colors: black, white, red, green, yellow, blue;
                 height: $font-size;
             }
 
-            &.#{$font-color} {
+            &.#{$color-name} {
                 .letter.a {
                     box-shadow:
                         1*$font-size 0*$font-size 0 $font-color,
