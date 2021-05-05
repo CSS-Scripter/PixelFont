@@ -28,6 +28,7 @@ let specialCharacters = {
     '\'': 'apostrove',
     '"': 'dapostrove',
     '-': 'dash',
+    ':': 'collon',
 }
 
 function renderPixelArtById(elementId, speed = 0) {
