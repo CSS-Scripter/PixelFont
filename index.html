@@ -25,6 +25,7 @@
                 <li><a onclick="scrollToElement('useit')">You should totally use our font</a></li>
                 <li><a onclick="scrollToElement('doesitwork')">How does it work?</a></li>
                 <li><a onclick="scrollToElement('usage')">How do I use it?</a></li>
+                <li><a onclick="scrollToElement('javascript')">Stinky naming conventions >:(</a></li>
                 <li><a onclick="scrollToElement('credit')">Who made this monstrocity?</a></li>
             </ul>
         </nav>
@@ -101,8 +102,21 @@
                         &lt;p class="pixelated small black"&gt;Hello World!&lt;/p&gt;
                     </code><br /><br />
                     Output:
-                    <p class="pixelated small black">Hello World!</p>
+                    <p class="pixelated small blue">Hello World!</p>
                 </p>
+            </section>
+            <section id="javascript">
+                <h2>What if I don't want to play by your naming rules? >:(</h2>
+                <p>You can manually trigger the transition with a built in javascript function. This function requires the ID and animation speed(in ms). Example:</p>
+                <code>
+                    &lt;p id="pixelMe" class="small red"&gt;Pixelate me!&lt;/p&gt; <br />
+                    &lt;script&gt;<br />
+                        <span style="padding-left: 1em">renderPixelArtById("pixelMe", 100);</span>
+                    &lt;/script&gt;
+                </code>
+                <p>Result:</p>
+                <p id="pixelMe" class="small red">Pixelate me!</p>
+                <script>renderPixelArtById("pixelMe", 100);</script>
             </section>
             <section id="credit">
                 <h2>Where can I find the monstrosity of code that you call CSS?</h2>
@@ -113,5 +127,6 @@
     <footer>
         Created by Thom, also known as CSS-Scripter <span class="small-text">(this name started off as a joke, but now I'm reconsidering my carreer choices)</span>
     </footer>
+    
 </body>
 </html>

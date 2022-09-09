@@ -3,9 +3,7 @@ window.addEventListener('load', rendUnidentifiedPixeltexts)
 async function rendUnidentifiedPixeltexts(event) {
     const listOfPixelatedElements = document.getElementsByClassName('pixelated')
     for (let element of listOfPixelatedElements) {
-        if (element.id == '') {
-            renderPixelArtByElement(element, 25) 
-        }
+        renderPixelArtByElement(element, 25)
     }
 }
 
@@ -32,9 +30,16 @@ let specialCharacters = {
 }
 
 function renderPixelArtById(elementId, speed = 0) {
-    const element = document.querySelector(`#${elementId}`)
+    const element = document.getElementById(elementId)
+    console.log(element)
     if (element != null) {
-        renderPixelArtByElement(element, speed, color)
+        element.style.color = 'transparent';
+        element.style.userSelect = 'none';
+        element.style.display = 'flex';
+        element.style.flexDirection = 'row';
+        element.style.justifyContent = 'flex-start';
+        element.style.flexWrap = 'wrap';
+        renderPixelArtByElement(element, speed)
     } else {
         console.error(`Element with id '${elementId}' was not found!`)
     }

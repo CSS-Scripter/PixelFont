@@ -134,3 +134,20 @@ footer {
     font-weight: lighter;
     font-size: 0.8em;
 }
+
+main.page-content {
+    display: block;
+    max-width: 650px;
+    margin-right: 2em;
+}
+
+@media (max-width: 600px) {
+    main.page-content {
+        width: max(300px, 90%);
+        margin: 0 auto;
+    }
+
+    nav {
+        display: none;
+    }
+}
