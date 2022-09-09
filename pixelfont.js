@@ -43,16 +43,23 @@ function renderPixelArtById(elementId, speed = 0) {
 async function renderPixelArtByElement(element, speed = 0) {
     const innerHTML = element.innerHTML
     element.innerHTML = '<span class="word">'
+    let i = 0;
 
     for (let char of innerHTML.trim()) {
-        char = specialCharacters[char] != null ? specialCharacters[char] : char
-        let letter = `<div class="letter-container ${char.toLowerCase()}"><div class="${char.toLowerCase()} letter"></div></div>\n`
-        element.querySelector('.word:last-child').innerHTML += letter
-        if (char === specialCharacters[' ']) {
-            element.innerHTML += '<span class="word">\n'
-        }
-        if (speed > 0)
-            await sleep(speed)
+        let delay = speed * ++i;
+        setTimeout(() => {
+            char = specialCharacters[char] != null ? specialCharacters[char] : char;
+            let letter = `<div class="letter-container ${char.toLowerCase()}"><div class="${char.toLowerCase()} letter"></div></div>\n`;
+            element.querySelector('.word:last-child').innerHTML += letter;
+            if (char === specialCharacters[' ']) {
+                element.innerHTML += '<span class="word">\n';
+            }
+        }, delay);
+    }
+
+    const letters = element.getElementsByClassName("letter");
+    for (let letter of letters) {
+        letter.style.display = "block";
     }
 }
 
