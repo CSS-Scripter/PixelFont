@@ -31,7 +31,6 @@ let specialCharacters = {
 
 function renderPixelArtById(elementId, speed = 0) {
     const element = document.getElementById(elementId)
-    console.log(element)
     if (element != null) {
         element.style.color = 'transparent';
         element.style.userSelect = 'none';
